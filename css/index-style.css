@@ -1,0 +1,45 @@
+#home 
+{
+    height: 100vh;
+    background-image: url(../images/pngtree-quote-bubble-text-pink-neon-light-background-vector-illustration-eps-jpg-image_436873.jpg);
+    background-position: center;
+    background-size:cover ;
+}
+.content
+{
+    position: absolute;
+    top: 37%;
+    left: 25%;
+}
+.quote
+{
+    position: absolute;
+    top: 75%;
+    left: 45%;
+}
+@font-face {
+    font-family: header;
+    src: url(../font/Caveat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: parghrap;
+    src: url(../font/Satisfy-Regular.ttf);
+}
+h2,h1
+{
+    font-family: header;
+    font-size: 50px;
+}
+p
+{
+    font-family: parghrap;
+    font-size: 25px;
+}
+button
+{
+    background-color: ff9e00 !important;
+}
+button:hover
+{
+    background-color: ff6d00 !important;
+}
